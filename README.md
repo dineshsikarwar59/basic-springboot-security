@@ -3,13 +3,17 @@ Spring boot security with basic implemetation
 
 
 Core Concepts and Architecture
+
 Q.1 What is Spring Security?
+
 Spring Security is a comprehensive and customizable framework for securing Java applications, offering features for authentication, authorization, and protection against common web vulnerabilities.
 
 Q.2Explain the Spring Security Filter Chain.
+
 Spring Security utilizes a chain of Servlet filters. Key filters include SecurityContextPersistenceFilter, UsernamePasswordAuthenticationFilter, ExceptionTranslationFilter, and FilterSecurityInterceptor.
 
 Q.3What is the difference between Authentication and Authorization?
+
 Authentication verifies identity ("Who are you?"), while authorization determines permissions for an authenticated user ("Are you allowed to do this?").
 What is UserDetailsService and GrantedAuthority?
 UserDetailsService retrieves user details from a data source, and GrantedAuthority represents permissions or roles used for authorization. 
